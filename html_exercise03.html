@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script type="text/javascript" src="script.js"></script>
-    <title>HTML Exercises3</title>
+    <title>HTML Exercises</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#images">Images</a></li>
-                <li><a href="#userInformation">User Information</a></li>
-                <li><a href="#table">Table</a></li>
-                <li><a href="#audio&Video">Audio&Video</a></li>
-                <li><a href="#embed">Embed</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="images">
+        <section>
             <figure>
-                <img src="https://i.pinimg.com/736x/bd/da/fc/bddafc029d86df72bef91bba70973c71.jpg" alt="Welcomeimage"
+                <img src="https://i.pinimg.com/736x/bd/da/fc/bddafc029d86df72bef91bba70973c71.jpg" alt="Welcome image"
                     width="700" height="240">
-                <figcaption><cite>Welcome</cite></figcaption>
+                <figcaption>Welcome</figcaption>
             </figure>
 
             <hr>
         </section>
 
-        <section id="userInformation">
+        <section>
             <h1>User Information</h1>
             <form action="#">
                 <label for="name">Name:</label>
@@ -52,22 +50,13 @@
                 <label for="terms">Accept terms and conditions:</label>
                 <input type="checkbox" id="terms" name="terms" required>
                 <br>
-                
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-                <br>
-                <label for="age">Age</label>
-                <input type="number" name="age" id="age" required>
-                <br>
-                <label for="date">Date</label>
-                <input type="date" name="date" id="date" value="2000-02-13" required>
-                <br>
-                <button id="btn">Submit</button>
+
+                <button type="submit">Submit</button>
             </form>
             <hr>
         </section>
 
-        <section id="table">
+        <section>
             <table>
                 <thead>
                     <tr>
@@ -87,37 +76,29 @@
             <hr>
         </section>
 
-        <section id="audio&Video">
+        <section>
             <h1>Audio Clip:</h1>
 
             <figure>
                 <audio controls>
                     <source src="AudioTest01.mp3" type="audio/mp3">
                     Audio not available.
+                    
                 </audio>
-                <figcaption>Funny Audio Meme <abbr title="Funny Audio Meme">FAM</abbr> </figcaption>
+                <figcaption>Funny Audio Meme</figcaption>
             </figure>
             <hr>
+
             <h1>Video Clip:</h1>
 
             <figure>
                 <video width="400" height="250" controls>
                     <source src="VideoTest01.mp4" type="video/mp4">
                     Video not available.
+                    
                 </video>
                 <figcaption>Skater Funny Meme</figcaption>
             </figure>
-        </section>
-
-        <section id="embed">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23573.539025212605!2d-116.52142954734708!3d42.
-            39169930166824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b2f52eda855399%3A0xa7c66afe3b73c3de!2sDicksh
-            ooter%2C%20ID%2C%20USA!5e0!3m2!1sen!2sph!4v1706805145964!5m2!1sen!2sph" width="600" height="450" style="border:0;"
-             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Le fameux Donald fumeur de clopes 
-                <a href="https://t.co/jiWsngMUjm">pic.twitter.com/jiWsngMUjm</a></p>&mdash; Popcorn 🍿 (@PopcornTalkshow) 
-                <a href="https://twitter.com/PopcornTalkshow/status/1752444506266349897?ref_src=twsrc%5Etfw">January 30, 2024
-                </a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
     </main>
 </body>
